@@ -1,0 +1,146 @@
+#subscribe {
+  padding: 105px 0 105px 0;
+}
+
+#subscribe .subscribe-contents {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#subscribe h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+#subscribe .top-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin: 25px 0 40px 0;
+}
+
+#subscribe .input-content {
+  border: 1px solid #000000;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+
+#subscribe .input-content input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #e27c23;
+  padding: 13px 20px 12px 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+#subscribe .input-content input::placeholder {
+  color: #e27c23;
+}
+
+#subscribe .input-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#subscribe .input-content button {
+  background: #e27c23;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 13px 19px;
+  border: 1px solid #e27c23;
+}
+
+#subscribe .input-content button:hover {
+  color: #e27c23;
+  background-color: white;
+}
+
+#subscribe .bottom-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  #subscribe {
+    padding: 38px 0 35px 0;
+  }
+
+  #subscribe h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  #subscribe .input-content button {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 16px;
+  }
+
+  #subscribe .input-content input {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 17px 9px 17px;
+  }
+  #subscribe .input-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #subscribe h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #subscribe .input-content button {
+    font-size: 14px;
+
+    padding: 10px 15px;
+  }
+  #subscribe .input-content input {
+    font-size: 16px;
+  }
+  #subscribe .input-content {
+    padding: 5px 8px;
+  }
+}
+.input-content input {
+  width: 80%;
+  border: none;
+  padding: 10px;
+}
+
+.input-content button {
+  width: 20%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 0;
+}

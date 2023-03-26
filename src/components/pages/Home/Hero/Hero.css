@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+#hero {
+  background-color: #fff6e6;
+  padding-top: 10px;
+  padding-bottom: 71px;
+}
+
+#hero .hero-contents {
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+}
+
+#hero .hero-contents .hero-left-side {
+  padding-top: 31px;
+}
+
+#hero h1 {
+  font-family: "Bayon";
+  font-style: normal;
+  font-size: 75px;
+  line-height: 97px;
+  letter-spacing: -0.03em;
+  color: #1b1c31;
+  margin: 0;
+}
+
+#hero .get-smarter-text {
+  font-weight: 400;
+}
+
+#hero .nft-text {
+  color: #e27c23;
+  font-weight: 400;
+}
+
+#hero .investment-text {
+  font-weight: 400;
+}
+
+#hero p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #3a3a3a;
+}
+
+#hero .newsletter-text {
+  margin: 11px 0 50px 0;
+}
+
+#hero .hero-input-container {
+  background: #ffffff;
+  box-shadow: 1px 4.35199px 100px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  max-width: 581px;
+  padding: 12px 13px 13px 22px;
+  height: 90px;
+  position: relative;
+}
+
+#hero .btn-top-img {
+  position: absolute;
+  top: -75px;
+  right: 20px;
+}
+
+#hero .hero-input {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  border: none;
+  outline: none;
+}
+
+#hero .hero-input::placeholder {
+  color: #000000;
+}
+
+#hero .hero-input-btn {
+  background: #e27c23;
+  border-radius: 7px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #e27c23;
+  padding: 13px 47px 13px 39px;
+  margin-left: 6px;
+  transition: all ease 0.5s;
+}
+
+#hero .hero-input-btn:hover {
+  color: #f6b962;
+  background-color: white;
+}
+
+#hero .read-by-nft-text {
+  margin: 66px 0 24px 0;
+}
+
+#hero .hero-bottom-image-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#hero .hero-bottom-image-group img {
+  margin: 0 -13px;
+}
+.image {
+  width: 40px;
+}
+
+@media (max-width: 1440px) {
+  #hero .hero-contents .hero-left-side {
+    width: 50%;
+  }
+
+  #hero .hero-bottom-image-group img {
+    width: 170px;
+  }
+
+  #hero h1 {
+    font-size: 65px;
+    line-height: 87px;
+  }
+
+  #hero .hero-input-container {
+    height: 70px;
+  }
+
+  #hero .btn-top-img {
+    width: 160px;
+    top: -60px;
+    right: 20px;
+  }
+
+  #hero .hero-input-btn {
+    padding: 12px 55px 12px 42px;
+  }
+
+  #hero .hero-input {
+    width: 50%;
+  }
+
+  #hero .right-side img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero {
+    background-color: #fffcf7;
+    padding-bottom: 51px;
+  }
+
+  #hero h1 {
+    font-size: 55px;
+    line-height: 67px;
+  }
+
+  #hero p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #hero .newsletter-text {
+    margin: 30px 0;
+  }
+
+  #hero .hero-bottom-image-group img {
+    width: 100px;
+    margin: 0;
+  }
+
+  #hero .hero-input-container {
+    height: 50px;
+  }
+
+  #hero .hero-input-btn {
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #hero .btn-top-img {
+    width: 90px;
+    top: -30px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  #hero h1 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  #hero .hero-bottom-image-group img {
+    width: 120px;
+  }
+
+  #hero p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #hero .hero-input {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  #hero .read-by-nft-text {
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 45px;
+  }
+
+  #hero .hero-contents .hero-left-side {
+    width: 100%;
+  }
+
+  #hero .right-side img {
+    /* max-width: 612px; */
+    display: block;
+    margin: 0 auto;
+  }
+
+  #hero .hero-input-container {
+    max-width: 750px;
+    margin: 0 1rem;
+  }
+
+  #hero {
+    background-color: #fffcf7;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mnt-button-root .mnt-button {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .mnt-button-root .mnt-button {
+    font-size: 20px;
+    padding: 12px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mnt-button-root .mnt-button {
+    font-size: 22px;
+    padding: 13px 47px 13px 39px;
+  }
+}

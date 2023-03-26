@@ -1,0 +1,181 @@
+#trust {
+  padding: 55px 0 0px 0;
+}
+
+#trust h1 {
+  font-family: "bayon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+  color: #1b1c31;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#trust .trust-card {
+  background: #ffffff;
+  box-shadow: 3px 4px 71px rgba(102, 102, 102, 0.1);
+  border-radius: 10px;
+  padding: 29px 6px;
+  margin: 50px 29px;
+  transition: 0.3s;
+}
+#trust .trust-card:hover {
+  transform: scale(1.05);
+}
+#trust .trust-card p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #171717;
+  opacity: 0.63;
+  margin: 22px 0 30px 0;
+  transition: all 0.25s ease-in;
+}
+#trust .trust-card p:hover {
+  color: #e27c23;
+}
+
+#trust .trust-card .user-name {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #171717;
+  opacity: 0.9;
+  margin: 0;
+}
+
+#trust .trust-card .user-comment-time {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  color: #171717;
+  opacity: 0.7;
+  margin: 0;
+}
+
+#trust .trust-card .user-contents {
+  padding: 0px 10px 23px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#trust .love-contents {
+  padding-top: 24px;
+}
+
+#trust .love-react-quantity {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #171717;
+  opacity: 0.63;
+}
+
+#trust .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0px !important;
+}
+
+#trust .swiper-pagination-bullet {
+  background-color: #e27c23 !important;
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+#trust .swiper-pagination-bullet-active {
+  background-color: #e27c23 !important;
+  opacity: 1 !important;
+  width: 30px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+}
+
+#trust .swiper-wrapper {
+  padding-bottom: 20px;
+}
+
+@media all and (max-width: 1400px) {
+  #trust .trust-card {
+    margin: 50px 19px;
+  }
+
+  #trust .trust-card .user-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #trust .trust-card .user-comment-time {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #trust h1 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  #trust .user-img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #trust h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 425px) {
+  #trust h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  #trust .trust-card p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 17px 0 15px 0;
+  }
+
+  #trust .trust-card .user-name {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #trust .trust-card .user-comment-time {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  #trust .trust-card {
+    margin: 30px 20px;
+    padding: 19px 6px;
+  }
+
+  #trust .love-contents {
+    padding-top: 14px;
+  }
+}

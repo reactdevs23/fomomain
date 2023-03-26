@@ -1,0 +1,238 @@
+.pricingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  padding-top: 80px;
+  background: #f7f7f7;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  max-width: 646px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.008em;
+  color: e27c23;
+}
+.color {
+  color: #e27c23;
+}
+.timePeriods {
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(24, 59, 86, 0.2);
+  border-radius: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 204px;
+  height: 48px;
+  padding: 8px;
+  margin: 50px 0;
+  position: relative;
+}
+.timePeriods::after {
+  content: url(/public/images/arrow.svg);
+  position: absolute;
+  right: -40px;
+  top: 85%;
+}
+.save {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: right;
+  color: #7732bb;
+  position: absolute;
+  right: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timePeriod {
+  padding: 8px 15px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.activePeriod {
+  background: #e27c23;
+  border-radius: 16px;
+  height: 100%;
+  transition: 0.3s ease;
+}
+.timePeriodtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #627065;
+}
+.activePeriod .timePeriodtext {
+  color: #fff;
+}
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+
+  justify-content: center;
+  padding-top: 80px;
+  gap: 15px;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(24, 59, 86, 0.05);
+  border-radius: 4px;
+  padding: 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.recomendedCard {
+  background: rgba(226, 124, 35, 0.12);
+  box-shadow: 0px 0px 4px rgba(24, 59, 86, 0.05);
+  border-radius: 0px 0px 4px 4px;
+  position: relative;
+}
+.recomended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 15px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  width: 100%;
+  background: #e27c23;
+  box-shadow: 0px 2px 5px rgba(24, 59, 86, 0.25);
+  border-radius: 4px 4px 0px 0px;
+}
+.recomendedText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
+}
+.titleAndText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.whatWillYOuGet {
+  padding: 10px 0;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #2e3630;
+}
+.buttonAndPrice {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #e27c23;
+  padding: 30px 0;
+  width: 100%;
+}
+.button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #0b2110;
+  border: 1px solid #0b2110;
+  border-radius: 8px;
+  padding: 8px 14px;
+  outline: none;
+  text-decoration: none;
+}
+.button:hover {
+  color: #0b2110;
+}
+.recomendedCard .button {
+  background: #e27c23;
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .cardWrapper {
+    grid-template-columns: 400px;
+    padding-top: 20px;
+  }
+  .recomendedCard {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .save {
+    right: -80px;
+    top: -40%;
+  }
+  .timePeriods::after {
+    transform: rotate(-40deg);
+    top: 10px;
+    right: -50px;
+  }
+  .cardWrapper {
+    grid-template-columns: 294.75px;
+  }
+  .recomendedCard {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heading {
+    font-size: 36px;
+  }
+  .save {
+    right: -40px;
+    top: -44%;
+  }
+}
