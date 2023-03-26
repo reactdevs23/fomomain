@@ -121,7 +121,7 @@
 #hero .gifImage {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 247px;
 }
 @media (max-width: 1440px) {
   #hero .hero-contents .hero-left-side {
