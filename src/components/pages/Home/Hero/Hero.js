@@ -134,7 +134,7 @@ const Hero = () => {
           </div>
           <div className="right-side mx-auto">
             <img
-              className="d-block mx-auto"
+              className="d-block mx-auto gifImage"
               src="/images/laser-eyes.gif"
               alt=""
             />

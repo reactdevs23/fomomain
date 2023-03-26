@@ -118,7 +118,11 @@
 .image {
   width: 40px;
 }
-
+#hero .gifImage {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
 @media (max-width: 1440px) {
   #hero .hero-contents .hero-left-side {
     width: 50%;
