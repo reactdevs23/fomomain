@@ -5,6 +5,7 @@ const BuyMagazine = () => {
   const quaterlyPricing = [
     {
       title: "Starter",
+      img: "/images/magazine/1.webp",
       youWillGet: ["Get 3 Physical Magazine", "Free Digital Copy "],
       price: 1.2,
       to: "https://www.hel.io/x/FOMOmag1",
@@ -12,6 +13,7 @@ const BuyMagazine = () => {
     {
       recomended: true,
       title: "Pro",
+      img: "/images/magazine/2.png",
       youWillGet: [
         "Get 3 Physical Magazine ",
         "Free Digital Copy",
@@ -22,6 +24,7 @@ const BuyMagazine = () => {
     },
     {
       title: "Professional",
+      img: "/images/magazine/3.png",
       youWillGet: [
         "Get 3 Physical Magazine",
         "Free Digital Copy",
@@ -35,6 +38,7 @@ const BuyMagazine = () => {
   const yearlyPricing = [
     {
       title: "Starter",
+      img: "/images/magazine/1.webp",
       youWillGet: ["Get 3 Physical Magazine", "Free Digital Copy "],
       price: 2.2,
       to: "https://www.hel.io/x/FOMOmag1",
@@ -42,6 +46,7 @@ const BuyMagazine = () => {
     {
       recomended: true,
       title: "Pro",
+      img: "/images/magazine/2.png",
       youWillGet: [
         "Get 3 Physical Magazine ",
         "Free Digital Copy",
@@ -53,6 +58,7 @@ const BuyMagazine = () => {
 
     {
       title: "LifeTime",
+      img: "/images/magazine/3.png",
       youWillGet: [
         "Get 3 Physical Magazine",
         "Free Digital Copy",
@@ -120,6 +126,7 @@ const BuyMagazine = () => {
                   ))}
                 </div>
               </div>
+              <img src={el.img} alt="#" className={styles.image} />
 
               <div className={styles.buttonAndPrice}>
                 <h5 className={styles.price}>{el.price} SOL</h5>
